@@ -1,10 +1,11 @@
 /* ----------------------------------- Default --------------------------------- */
 * {
-    font-family: Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    background: #000000;
+    background: rgb(1,1,1);
+    background: radial-gradient(circle, rgba(1,1,1,1) 25%, rgba(0,0,0,1) 59%);
     padding-top: 100vh; /* altezza del menu */
 }
 
@@ -164,8 +165,8 @@ a {
 
 .icon {
     border-radius: 20%; /* Arrotonda l'immagine */
-    width: 150px; /* Imposta una larghezza fissa per l'immagine */
-    height: 150px; /* Imposta un'altezza fissa per l'immagine */
+    width: 200px; /* Imposta una larghezza fissa per l'immagine */
+    height: 200px; /* Imposta un'altezza fissa per l'immagine */
     margin-right: 20px; /* Distanza tra l'immagine e il testo */
 }
 
@@ -189,9 +190,8 @@ section .content-text {
 #footer {
     position: relative;
     padding: 1em;
-    background-color: #000000;
     color: white;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     margin-top: 20px;
 }

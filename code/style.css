@@ -1,6 +1,6 @@
 /* ----------------------------------- Default --------------------------------- */
     *{
-        font-family: Arial, sans-serif;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     body {
         background: #000000;
@@ -193,7 +193,7 @@
         padding: 1em;
         background-color: #000000;
         color: white;
-        font-size: 10px;
+        font-size: 15px;
         text-align: center;
         margin-top: 20px;
     }
